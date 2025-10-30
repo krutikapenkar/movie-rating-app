@@ -1,4 +1,5 @@
 **🎬 Movie Rater Backend (Django + REST Framework)**
+-----------------------------------
 
 This is the backend API for the Movie Rater project — built using Django and Django REST Framework.
 It powers the movie rating web app, providing APIs for authentication, movies, categories, and user ratings.
@@ -12,6 +13,7 @@ It powers the movie rating web app, providing APIs for authentication, movies, c
 5) Authentication: Token-based Auth (DRF)
 
 **📂 Project Structure**
+-----------------------------------
 movie_rating-app/
 │
 ├── api/                   # API app containing views, models, serializers
@@ -29,12 +31,13 @@ movie_rating-app/
 ├── requirements.txt       # Python dependencies
 
 **⚙️ Setup Instructions**
+-----------------------------------
 
 1️⃣ Clone the repository
 1) git clone https://github.com/krutikapenkar/movie-rating-app.git 
 2) cd movie-rater-backend
 
-2️⃣ Create and activate virtual environment
+2️⃣ Create and activate a virtual environment
 1) python -m venv venv
 2) source venv/bin/activate   # On Mac/Linux
 3) venv\Scripts\activate      # On Windows
@@ -43,9 +46,9 @@ movie_rating-app/
 1) pip install -r requirements.txt
 
 4️⃣ Install dependencies
-1) change database settings in Settings.py
+1) Change database settings in Settings.py
 
-5️⃣ Apply migrations and create superuser
+5️⃣ Apply migrations and create a superuser
 1) python manage.py makemigrations
 2) python manage.py migrate
 

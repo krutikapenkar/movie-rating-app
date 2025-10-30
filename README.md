@@ -15,11 +15,17 @@ It powers the movie rating web app, providing APIs for authentication, movies, c
 movie_rating-app/
 │
 ├── api/                   # API app containing views, models, serializers
+
 ├── movierater/            # Main Django project (settings, urls, wsgi)
+
 ├── media/                 # Uploaded media files
+
 ├── static/                # Static files after collectstatic
+
 ├── venv/                  # Virtual environment
+
 ├── manage.py              # Django CLI management file
+
 ├── requirements.txt       # Python dependencies
 
 **⚙️ Setup Instructions**

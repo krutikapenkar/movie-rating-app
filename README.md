@@ -23,6 +23,7 @@ movie_rating-app/
 ├── requirements.txt       # Python dependencies
 
 **⚙️ Setup Instructions**
+
 1️⃣ Clone the repository
 1) git clone https://github.com/krutikapenkar/movie-rating-app.git 
 2) cd movie-rater-backend

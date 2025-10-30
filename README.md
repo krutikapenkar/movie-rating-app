@@ -24,26 +24,26 @@ movie_rating-app/
 
 **⚙️ Setup Instructions**
 1️⃣ Clone the repository
-git clone https://github.com/krutikapenkar/movie-rating-app.git
-cd movie-rater-backend
+1) git clone https://github.com/krutikapenkar/movie-rating-app.git 
+2) cd movie-rater-backend
 
 2️⃣ Create and activate virtual environment
-python -m venv venv
-source venv/bin/activate   # On Mac/Linux
-venv\Scripts\activate      # On Windows
+1) python -m venv venv
+2) source venv/bin/activate   # On Mac/Linux
+3) venv\Scripts\activate      # On Windows
 
 3️⃣ Install dependencies
-pip install -r requirements.txt
+1) pip install -r requirements.txt
 
 4️⃣ Install dependencies
-change database settings in Settings.py
+1) change database settings in Settings.py
 
 5️⃣ Apply migrations and create superuser
-python manage.py makemigrations
-python manage.py migrate
+1) python manage.py makemigrations
+2) python manage.py migrate
 
 Create a superuser
-python manage.py createsuperuser
+1) python manage.py createsuperuser
 
 6️⃣ Run development server
-python manage.py runserver
+1) python manage.py runserver

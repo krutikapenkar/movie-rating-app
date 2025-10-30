@@ -24,7 +24,7 @@ movie_rating-app/
 
 **⚙️ Setup Instructions**
 1️⃣ Clone the repository
-git clone https://github.com/<your-username>/movie-rater-backend.git
+git clone https://github.com/krutikapenkar/movie-rating-app.git
 cd movie-rater-backend
 
 2️⃣ Create and activate virtual environment
